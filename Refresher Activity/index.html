@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="home">
+        <h1>Bondad Neil Christopher C.</h1>
+        <p>Web Developer | Designer</p>
+    </section>
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+	<img src="aboutme.jpg" alt="About Me" style="width:100%;max-width:150px;height:auto;">
+        <p>I'm Neil Christopher Bondad, from Ilocos Sur currently taking Bachelor in Science in Information Technology Major in Web Development. I love playing basketball and working out during my free time. I also play Esports like Dota 2 and Mobile Legends. </p>
+    </section>
+
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+	    <img src="html.jpg" alt="html" style="width:100%;max-width:150px;height:auto;">
+	    <img src="javascript.jpg" alt="javascript" style="width:100%;max-width:250px;height:auto;">
+	    <img src="python.jpg" alt="html" style="width:100%;max-width:150px;height:auto;">
+	    <img src="csharp.jpg" alt="c#" style="width:100%;max-width:200px;height:auto;">
+            <!-- Add more skills -->
+        </ul>
+    </section>
+
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>G-App</h3>
+	    <img src="gapp.jpg" alt="Project 1 Screenshot" style="width:100%;max-width:150px;height:auto;">
+            <p>I'm currently developing an application called G App. G App is an online grocery shopping system that is well organized, user-friendly, and time effective as well as showcases essential data analytic features that are predictive. This application aims to help residents to shop goods in a convinient manner as well as help business owners to sell their products with just a swipe with the application.</p>
+        </div>
+        
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+	<img src="email.png" alt="Email Icon" style="width:100%;max-width:25px;height:auto;">
+	<p>Email: <a href="mailto:bondadneil@gmail.com">bondadneil@gmail.com</a></p>
+
+    	<img src="phone.png" alt="Phone Icon" style="width:100%;max-width:25px;height:auto;">
+	<p>Phone: +639999999991</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> Refresher Activity for CIT18 - Mastery in Web Technology.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
